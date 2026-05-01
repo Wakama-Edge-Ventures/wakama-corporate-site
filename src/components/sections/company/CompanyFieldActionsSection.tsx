@@ -6,6 +6,7 @@ import Link from "next/link";
 import {useTranslations} from "next-intl";
 
 import {Container} from "@/components/ui/Container";
+import {trackFarmerAccess} from "@/lib/analytics";
 
 const imageSpans = ["lg:col-span-7", "lg:col-span-5", "lg:col-span-4", "lg:col-span-4", "lg:col-span-4"];
 const imageRatios = ["aspect-[16/10]", "aspect-[16/10]", "aspect-[4/3]", "aspect-[4/3]", "aspect-[4/3]"];
@@ -33,6 +34,7 @@ export function CompanyFieldActionsSection() {
             href="https://farmer.wakama.farm/"
             target="_blank"
             rel="noopener noreferrer"
+            onClick={() => trackFarmerAccess("company_field_section")}
             className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-cyanLogo transition hover:text-ink"
           >
             {t("farmerCta")}

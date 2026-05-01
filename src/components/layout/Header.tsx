@@ -10,6 +10,7 @@ import {useMemo, useState} from "react";
 
 import {Button} from "@/components/ui/Button";
 import {Container} from "@/components/ui/Container";
+import {getUmamiEventNameForHref, trackFarmerAccess} from "@/lib/analytics";
 import {cn} from "@/lib/utils";
 
 const navKeys = ["solutions", "platform", "pilot", "compliance", "company"] as const;
@@ -131,6 +132,7 @@ export function Header() {
                         <Link
                           key={item.href}
                           href={item.href}
+                          data-umami-event={getUmamiEventNameForHref(item.href) ?? undefined}
                           className={cn(
                             "block rounded-lg px-3 py-2.5 text-sm font-medium transition",
                             isCompanyPage
@@ -148,6 +150,7 @@ export function Header() {
                 <Link
                   key={link.key}
                   href={link.href}
+                  data-umami-event={getUmamiEventNameForHref(link.href) ?? undefined}
                   className={cn(
                     "text-sm font-medium transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyanLogo",
                     isCompanyPage ? "text-ink/70 hover:text-ink" : "text-white/68 hover:text-white",
@@ -164,6 +167,7 @@ export function Header() {
               href="https://farmer.wakama.farm/"
               target="_blank"
               rel="noopener noreferrer"
+              onClick={() => trackFarmerAccess("header_desktop")}
               className={cn(
                 "text-sm font-medium transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-cyanLogo",
                 isCompanyPage ? "text-ink/52 hover:text-ink" : "text-white/52 hover:text-white",
@@ -240,6 +244,7 @@ export function Header() {
                             key={item.href}
                             href={item.href}
                             onClick={() => setOpen(false)}
+                            data-umami-event={getUmamiEventNameForHref(item.href) ?? undefined}
                             className={cn(
                               "rounded-lg px-3 py-3 text-base font-medium transition",
                               isCompanyPage
@@ -257,6 +262,7 @@ export function Header() {
                       key={link.key}
                       href={link.href}
                       onClick={() => setOpen(false)}
+                      data-umami-event={getUmamiEventNameForHref(link.href) ?? undefined}
                       className={cn(
                         "rounded-lg px-3 py-3 text-base font-medium transition",
                         isCompanyPage
@@ -273,7 +279,10 @@ export function Header() {
                 href="https://farmer.wakama.farm/"
                 target="_blank"
                 rel="noopener noreferrer"
-                onClick={() => setOpen(false)}
+                onClick={() => {
+                  trackFarmerAccess("header_mobile");
+                  setOpen(false);
+                }}
                 className={cn(
                   "mt-4 block rounded-lg px-3 py-3 text-base font-medium transition",
                   isCompanyPage

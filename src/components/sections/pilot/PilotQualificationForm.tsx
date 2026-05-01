@@ -6,6 +6,7 @@ import {useLocale, useTranslations} from "next-intl";
 import {FormEvent, useState} from "react";
 
 import {Container} from "@/components/ui/Container";
+import {trackUmamiEvent} from "@/lib/analytics";
 
 const initialValues = {
   fullName: "",
@@ -71,10 +72,19 @@ export function PilotQualificationForm() {
 
     if (Object.keys(nextErrors).length > 0) {
       setStatus("idle");
+      trackUmamiEvent("pilot_form_validation_error", {
+        locale,
+        error_count: Object.keys(nextErrors).length,
+      });
       return;
     }
 
     setStatus("loading");
+    trackUmamiEvent("pilot_form_submit", {
+      locale,
+      institution_type: values.institutionType || null,
+      priority_need: values.priorityNeed || null,
+    });
 
     try {
       const response = await fetch("/api/pilot-request", {
@@ -101,14 +111,29 @@ export function PilotQualificationForm() {
 
       if (!response.ok || !result.ok) {
         setStatus("error");
+        trackUmamiEvent("pilot_form_error", {
+          locale,
+          institution_type: values.institutionType || null,
+          priority_need: values.priorityNeed || null,
+        });
         return;
       }
 
       setStatus("success");
+      trackUmamiEvent("pilot_form_success", {
+        locale,
+        institution_type: values.institutionType || null,
+        priority_need: values.priorityNeed || null,
+      });
       setValues(initialValues);
       setErrors({});
     } catch {
       setStatus("error");
+      trackUmamiEvent("pilot_form_error", {
+        locale,
+        institution_type: values.institutionType || null,
+        priority_need: values.priorityNeed || null,
+      });
     }
   }
 

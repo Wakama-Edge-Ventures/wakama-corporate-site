@@ -6,6 +6,7 @@ import {useLocale, useTranslations} from "next-intl";
 
 import {Button} from "@/components/ui/Button";
 import {Container} from "@/components/ui/Container";
+import {trackConversionLink} from "@/lib/analytics";
 
 export function PilotFinalCTA() {
   const t = useTranslations("pilotPage.finalCta");
@@ -40,6 +41,7 @@ export function PilotFinalCTA() {
             </div>
             <Link
               href={`/${locale}/diagnostic-agricredit`}
+              onClick={() => trackConversionLink(`/${locale}/diagnostic-agricredit`, "pilot_final_cta")}
               className="mt-4 inline-flex text-sm font-medium text-cyanLogo transition hover:text-white"
             >
               {t("diagnosticLink")}

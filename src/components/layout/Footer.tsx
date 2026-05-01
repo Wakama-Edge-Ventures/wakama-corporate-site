@@ -6,6 +6,7 @@ import Link from "next/link";
 import {useState} from "react";
 
 import {Container} from "@/components/ui/Container";
+import {getUmamiEventNameForHref, trackConversionLink, trackFarmerAccess} from "@/lib/analytics";
 
 const columns = ["platform", "solutions", "company", "legal"] as const;
 const hrefMap = {
@@ -64,6 +65,7 @@ export function Footer() {
               <div className="flex max-w-md items-center justify-between gap-4">
                 <Link
                   href={`/${locale}/diagnostic-agricredit`}
+                  onClick={() => trackConversionLink(`/${locale}/diagnostic-agricredit`, "footer")}
                   className="inline-flex items-center gap-2 text-sm font-medium text-cyanLogo transition hover:text-white"
                 >
                   {t("diagnosticLabel")}
@@ -72,6 +74,7 @@ export function Footer() {
                   href="https://www.linkedin.com/company/wakama-farm"
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-umami-event={getUmamiEventNameForHref("https://www.linkedin.com/company/wakama-farm") ?? undefined}
                   aria-label={t("linkedinLabel")}
                   title={t("linkedinLabel")}
                   className="inline-flex h-9 w-9 items-center justify-center rounded-full border border-white/10 text-white/58 transition hover:border-white/20 hover:text-white"
@@ -91,6 +94,7 @@ export function Footer() {
                   href="https://farmer.wakama.farm/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  onClick={() => trackFarmerAccess("footer")}
                   className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-mintCta transition hover:text-white"
                 >
                   {t("farmerGateway.cta")}
@@ -113,6 +117,7 @@ export function Footer() {
                       <li key={item}>
                         <Link
                           href={`/${locale}${hrefMap[column][index]}`}
+                          data-umami-event={getUmamiEventNameForHref(`/${locale}${hrefMap[column][index]}`) ?? undefined}
                           className="text-sm text-white/52 transition hover:text-white"
                         >
                           {item}

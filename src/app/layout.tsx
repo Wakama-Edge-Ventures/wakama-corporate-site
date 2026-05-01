@@ -1,5 +1,6 @@
 import type {Metadata} from "next";
 
+import {UmamiAnalytics} from "@/components/analytics/UmamiAnalytics";
 import {SITE_URL} from "@/lib/seo";
 
 export const metadata: Metadata = {
@@ -13,7 +14,10 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body>{children}</body>
+      <body>
+        {children}
+        <UmamiAnalytics />
+      </body>
     </html>
   );
 }

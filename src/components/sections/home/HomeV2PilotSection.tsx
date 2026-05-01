@@ -7,6 +7,7 @@ import {useLocale, useTranslations} from "next-intl";
 
 import {Button} from "@/components/ui/Button";
 import {Container} from "@/components/ui/Container";
+import {trackConversionLink} from "@/lib/analytics";
 
 export function HomeV2PilotSection() {
   const t = useTranslations("homeV2.pilot");
@@ -87,6 +88,7 @@ export function HomeV2PilotSection() {
               </Button>
               <Link
                 href={`/${locale}/diagnostic-agricredit`}
+                onClick={() => trackConversionLink(`/${locale}/diagnostic-agricredit`, "home_pilot_section")}
                 className="mt-4 inline-flex text-sm font-medium text-cyanLogo transition hover:text-white"
               >
                 {t("diagnosticLink")}

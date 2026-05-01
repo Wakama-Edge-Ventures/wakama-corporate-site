@@ -1,6 +1,9 @@
-import Link from "next/link";
-import type {AnchorHTMLAttributes, ReactNode} from "react";
+"use client";
 
+import Link from "next/link";
+import type {AnchorHTMLAttributes, MouseEvent, ReactNode} from "react";
+
+import {getUmamiEventNameForHref, trackConversionLink} from "@/lib/analytics";
 import {cn} from "@/lib/utils";
 
 type ButtonVariant = "primary" | "secondary" | "ghost" | "dark";
@@ -28,6 +31,7 @@ type ButtonProps = AnchorHTMLAttributes<HTMLAnchorElement> & {
   children: ReactNode;
   variant?: ButtonVariant;
   size?: ButtonSize;
+  "data-umami-event"?: string;
 };
 
 export function Button({
@@ -36,11 +40,28 @@ export function Button({
   className,
   variant = "primary",
   size = "md",
+  onClick,
   ...props
 }: ButtonProps) {
+  const providedUmamiEvent = props["data-umami-event"];
+  const autoUmamiEvent =
+    typeof providedUmamiEvent === "string" && providedUmamiEvent.length > 0
+      ? providedUmamiEvent
+      : getUmamiEventNameForHref(href);
+
+  function handleClick(event: MouseEvent<HTMLAnchorElement>) {
+    onClick?.(event);
+
+    if (!event.defaultPrevented) {
+      trackConversionLink(href);
+    }
+  }
+
   return (
     <Link
       href={href}
+      onClick={handleClick}
+      data-umami-event={autoUmamiEvent ?? undefined}
       className={cn(
         "inline-flex items-center justify-center gap-2 rounded-full font-semibold transition duration-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2",
         "motion-safe:hover:-translate-y-0.5",
