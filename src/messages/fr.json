@@ -410,7 +410,7 @@
         },
         {
           "label": "Sortie",
-          "value": "Rapport ROI"
+          "value": "Lecture ROI opérationnelle"
         }
       ]
     },
@@ -425,7 +425,7 @@
         },
         {
           "title": "Mesurer ce qui compte",
-          "body": "Complétude KYC, coût terrain, délai d’instruction, qualité des données, score, dossier comité et reporting."
+          "body": "Complétude KYC, coût terrain, délai d’instruction, qualité des données, score agricole explicable et non décisionnel, dossier comité et reporting."
         },
         {
           "title": "Décider avec des preuves",
@@ -436,7 +436,7 @@
     "timeline": {
       "eyebrow": "DÉROULÉ",
       "title": "Un cadre de 90 jours, assez court pour tester, assez complet pour décider.",
-      "description": "Chaque phase produit une preuve : cadrage, collecte, scoring, dossier, dashboard et restitution finale.",
+      "description": "Chaque phase produit une preuve : cadrage, collecte, score agricole explicable et non décisionnel, dossier, dashboard et restitution finale.",
       "stepLabel": "Étape {number}",
       "steps": [
         {
@@ -449,11 +449,11 @@
         },
         {
           "title": "Transformer la donnée en dossier",
-          "body": "Semaine 7–10, Score Wakama, synthèse Idjor, fiche crédit, alertes et dashboard pilote."
+          "body": "Semaine 7–10, score agricole explicable et non décisionnel, synthèse Idjor, fiche crédit, alertes et dashboard pilote."
         },
         {
           "title": "Restituer et décider",
-          "body": "Semaine 11–12, Rapport final, lecture ROI, enseignements terrain et recommandation de passage à l’échelle."
+          "body": "Semaine 11–12, rapport final, lecture ROI opérationnelle, enseignements terrain et scénarios de passage à l’échelle."
         }
       ]
     },
@@ -476,7 +476,7 @@
         },
         {
           "title": "Score Wakama",
-          "body": "Lecture structurée du risque agricole, accompagnée de facteurs explicables."
+          "body": "Score agricole explicable et non décisionnel, accompagné de facteurs relisibles par l’institution."
         },
         {
           "title": "Fiche crédit comité",
@@ -484,14 +484,14 @@
         },
         {
           "title": "Dashboard & rapport final",
-          "body": "Vue portefeuille, alertes, indicateurs de qualité, enseignements terrain et recommandation."
+          "body": "Vue portefeuille, alertes, indicateurs de qualité, enseignements terrain et scénarios de passage à l’échelle."
         }
       ]
     },
     "operatingSplit": {
       "eyebrow": "GOUVERNANCE",
       "title": "Wakama opère le terrain. Votre institution garde la décision.",
-      "rule": "Le pilote clarifie les responsabilités dès le départ : Wakama prépare les données, le score, les dossiers et le suivi. Votre institution conserve la politique crédit, les conditions, le comité et la décision finale.",
+      "rule": "Le pilote clarifie les responsabilités dès le départ : Wakama prépare les données, les dossiers et les indicateurs. L’institution garde la décision finale. Votre institution conserve aussi la politique crédit, les conditions, le comité et la responsabilité réglementaire.",
       "wakamaTitle": "Wakama prépare",
       "institutionTitle": "Votre institution décide.",
       "wakamaItems": [
@@ -1353,7 +1353,7 @@
     "bceao": {
       "eyebrow": "GOUVERNANCE RÉGULÉE",
       "title": "Un workflow pensé pour vos comités, pas pour les contourner.",
-      "body": "Wakama s’intègre comme une couche de support à l’instruction agricole. Les décisions, responsabilités et obligations réglementaires restent chez l’institution régulée. Le terme BCEAO-ready signifie conçu pour discussion, validation contractuelle et revue juridique avec l’institution. Il ne signifie pas validation officielle par le régulateur.",
+      "body": "Wakama s’intègre comme une couche de support à l’instruction agricole. Les décisions, responsabilités et obligations réglementaires restent chez l’institution régulée. BCEAO-ready signifie conçu pour discussion et alignement, pas validation officielle par le régulateur.",
       "cards": [
         {
           "title": "Fonctions support",
@@ -2069,7 +2069,7 @@
     "hero": {
       "eyebrow": "DIAGNOSTIC AGRICREDIT",
       "title": "Avant de piloter, mesurez où le portefeuille agricole bloque.",
-      "subtitle": "Le Diagnostic AgriCredit aide votre institution ou programme à comprendre une filière, une zone ou un portefeuille agricole avant de lancer un pilote Wakama : données disponibles, coûts terrain, risques, livrables et plan de déploiement.",
+      "subtitle": "Le Diagnostic AgriCredit est une offre d’entrée avant pilote. Il aide votre institution ou programme à comprendre une filière, une zone ou un portefeuille agricole avant de lancer un pilote Wakama : données disponibles, coûts terrain, risques, livrables et plan de déploiement.",
       "promise": "Un cadrage court pour éviter un mauvais pilote.",
       "primaryCta": "Demander un diagnostic",
       "secondaryCta": "Voir le pilote 90 jours",
@@ -2104,7 +2104,7 @@
     },
     "scope": {
       "title": "Ce que le diagnostic analyse.",
-      "description": "Le diagnostic couvre le portefeuille agricole, la due diligence coopérative agricole, les données disponibles et la meilleure séquence d’entrée terrain.",
+      "description": "Le diagnostic couvre le portefeuille agricole, la due diligence coopérative agricole, les données disponibles et la meilleure séquence d’entrée terrain. Il mesure la capacité de l’institution à instruire, documenter et suivre un portefeuille agricole.",
       "items": [
         "Portefeuille agricole existant ou cible",
         "Filières prioritaires",
@@ -2125,7 +2125,7 @@
         "Cartographie portefeuille / filière",
         "Analyse des données disponibles",
         "Diagnostic coût terrain",
-        "Scoring readiness",
+        "Préparation au scoring",
         "Risques et quick wins",
         "Plan pilote chiffré",
         "KPIs de succès",
@@ -2138,7 +2138,7 @@
     },
     "finalCta": {
       "title": "Cadrons le bon pilote avant de mobiliser le terrain.",
-      "subtitle": "Partagez votre contexte et nous vous proposerons le meilleur angle d’entrée : diagnostic, pilote IMF, diagnostic banque, pilote assurance ou programme partenaire.",
+      "subtitle": "Partagez votre contexte et nous vous proposerons le meilleur angle d’entrée : diagnostic, pilote IMF / SFD, diagnostic banque, pilote assurance ou programme partenaire.",
       "primaryCta": "Demander un diagnostic AgriCredit",
       "secondaryCta": "Voir les services"
     }
@@ -2676,7 +2676,7 @@
       },
       "intro": {
         "title": "Un cadre de confidentialité pensé pour des institutions régulées.",
-        "body": "Cette page présente un cadre général de traitement. Elle sera complétée avec les conseils juridiques applicables avant tout déploiement commercial complet."
+      "body": "Cette page présente un cadre général de traitement. Elle sera complétée avec les conseils juridiques applicables avant tout déploiement commercial complet. Wakama n’est pas un prêteur, ne collecte pas de dépôts, ne décide pas du crédit et ne fournit pas de service financier réglementé directement aux producteurs."
       },
       "cards": [
         {
@@ -2728,7 +2728,7 @@
       },
       "intro": {
         "title": "Un site institutionnel, pas un service financier direct.",
-        "body": "Wakama fournit une infrastructure B2B de collecte, scoring, documentation et suivi. Cette page sera complétée avec les conseils juridiques applicables avant tout déploiement commercial complet."
+      "body": "Wakama fournit une infrastructure B2B de collecte, scoring, documentation et suivi. Wakama n’est pas un prêteur, ne collecte pas de dépôts, ne décide pas du crédit et ne fournit pas de service financier réglementé directement aux producteurs. Cette page sera complétée avec les conseils juridiques applicables avant tout déploiement commercial complet."
       },
       "cards": [
         {
@@ -2737,7 +2737,7 @@
         },
         {
           "title": "Absence de service financier direct",
-          "body": "Wakama ne prête pas, ne collecte pas de dépôts et ne prend pas de décision finale de crédit."
+          "body": "Wakama n’est pas un prêteur, ne collecte pas de dépôts, ne décide pas du crédit et ne fournit pas de service financier réglementé directement aux producteurs."
         },
         {
           "title": "Rôle de Wakama",

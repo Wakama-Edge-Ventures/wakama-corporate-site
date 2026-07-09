@@ -410,7 +410,7 @@
         },
         {
           "label": "Outcome",
-          "value": "ROI report"
+          "value": "Operational ROI reading"
         }
       ]
     },
@@ -425,7 +425,7 @@
         },
         {
           "title": "Measure what matters",
-          "body": "KYC completeness, field cost, processing time, data quality, score, committee file and reporting."
+          "body": "KYC completeness, field cost, processing time, data quality, explainable, non-decision agricultural score, committee file and reporting."
         },
         {
           "title": "Decide with evidence",
@@ -436,7 +436,7 @@
     "timeline": {
       "eyebrow": "PILOT FLOW",
       "title": "A 90-day frame: short enough to test, complete enough to decide.",
-      "description": "Each phase produces evidence: framing, collection, scoring, file preparation, dashboard and final review.",
+      "description": "Each phase produces evidence: framing, collection, explainable, non-decision agricultural score, file preparation, dashboard and final review.",
       "stepLabel": "Step {number}",
       "steps": [
         {
@@ -449,11 +449,11 @@
         },
         {
           "title": "Turn data into files",
-          "body": "Week 7–10, Wakama Score, Idjor summary, credit file, alerts and pilot dashboard."
+          "body": "Week 7–10, explainable, non-decision agricultural score, Idjor summary, credit file, alerts and pilot dashboard."
         },
         {
           "title": "Review and decide",
-          "body": "Week 11–12, Final report, ROI reading, field learnings and scaling recommendation."
+          "body": "Week 11–12, final report, operational ROI reading, field learnings and scale scenarios."
         }
       ]
     },
@@ -476,7 +476,7 @@
         },
         {
           "title": "Wakama Score",
-          "body": "Structured agricultural risk reading with explainable factors."
+          "body": "Explainable, non-decision agricultural score with factors the institution can review."
         },
         {
           "title": "Committee credit file",
@@ -484,14 +484,14 @@
         },
         {
           "title": "Dashboard & final report",
-          "body": "Portfolio view, alerts, quality indicators, field learnings and recommendation."
+          "body": "Portfolio view, alerts, quality indicators, field learnings and scale scenarios."
         }
       ]
     },
     "operatingSplit": {
       "eyebrow": "GOVERNANCE",
       "title": "Wakama operates the field. Your institution keeps the decision.",
-      "rule": "The pilot clarifies responsibilities from the start. Wakama prepares the data, score, files and monitoring. Your institution keeps credit policy, terms, committee and final decision.",
+      "rule": "The pilot clarifies responsibilities from the start. Wakama prepares the data, files and indicators. The institution keeps the final decision. Your institution also keeps credit policy, terms, committee and regulatory responsibility.",
       "wakamaTitle": "Wakama prepares",
       "institutionTitle": "Your institution decides.",
       "wakamaItems": [
@@ -1353,7 +1353,7 @@
     "bceao": {
       "eyebrow": "REGULATED GOVERNANCE",
       "title": "A workflow built for your committees, not around them.",
-      "body": "Wakama integrates as a support layer for agricultural credit processing. Decisions, responsibilities and regulatory obligations remain with the regulated institution. BCEAO-ready means designed for discussion, contractual validation and legal review with the institution. It does not mean official regulator approval.",
+      "body": "Wakama integrates as a support layer for agricultural credit processing. Decisions, responsibilities and regulatory obligations remain with the regulated institution. BCEAO-ready means designed for discussion and alignment, not official regulator approval.",
       "cards": [
         {
           "title": "Support functions",
@@ -2069,7 +2069,7 @@
     "hero": {
       "eyebrow": "AGRICREDIT DIAGNOSTIC",
       "title": "Before piloting, understand where the agricultural portfolio gets stuck.",
-      "subtitle": "The AgriCredit Diagnostic helps your institution or program understand a value chain, zone or agricultural portfolio before launching a Wakama pilot: available data, field costs, risks, deliverables and deployment plan.",
+      "subtitle": "The AgriCredit Diagnostic is an entry offer before a pilot. It helps your institution or program understand a value chain, zone or agricultural portfolio before launching a Wakama pilot: available data, field costs, risks, deliverables and deployment plan.",
       "promise": "A short diagnostic to avoid the wrong pilot.",
       "primaryCta": "Request a diagnostic",
       "secondaryCta": "View the 90-day pilot",
@@ -2104,7 +2104,7 @@
     },
     "scope": {
       "title": "What the diagnostic analyzes.",
-      "description": "The diagnostic covers the agricultural portfolio, cooperative due diligence, available data and the best field entry sequence.",
+      "description": "The diagnostic covers the agricultural portfolio, cooperative due diligence, available data and the best field entry sequence. It measures the institution’s ability to process, document and monitor an agricultural portfolio.",
       "items": [
         "Existing or target agricultural portfolio",
         "Priority value chains",
@@ -2125,7 +2125,7 @@
         "Portfolio / value chain mapping",
         "Available data analysis",
         "Field cost diagnostic",
-        "Scoring readiness",
+        "Non-decision scoring readiness",
         "Risks and quick wins",
         "Costed pilot plan",
         "Success KPIs",
@@ -2138,7 +2138,7 @@
     },
     "finalCta": {
       "title": "Frame the right pilot before mobilizing the field.",
-      "subtitle": "Share your context and we will recommend the best entry point: diagnostic, MFI pilot, bank diagnostic, insurance pilot or partner program.",
+      "subtitle": "Share your context and we will recommend the best entry point: diagnostic, MFI / SFD pilot, bank diagnostic, insurance pilot or partner program.",
       "primaryCta": "Request an AgriCredit diagnostic",
       "secondaryCta": "View services"
     }
@@ -2676,7 +2676,7 @@
       },
       "intro": {
         "title": "A privacy framework designed for regulated institutions.",
-        "body": "This page presents a general processing framework. It will be completed with the applicable legal guidance before any full commercial deployment."
+      "body": "This page presents a general processing framework. It will be completed with the applicable legal guidance before any full commercial deployment. Wakama is not a lender, does not collect deposits, does not decide credit and does not provide regulated financial services directly to farmers."
       },
       "cards": [
         {
@@ -2728,7 +2728,7 @@
       },
       "intro": {
         "title": "An institutional site, not a direct financial service.",
-        "body": "Wakama provides a B2B infrastructure for collection, scoring, documentation and monitoring. This page will be completed with the applicable legal guidance before any full commercial deployment."
+      "body": "Wakama provides a B2B infrastructure for collection, scoring, documentation and monitoring. Wakama is not a lender, does not collect deposits, does not decide credit and does not provide regulated financial services directly to farmers. This page will be completed with the applicable legal guidance before any full commercial deployment."
       },
       "cards": [
         {
@@ -2737,7 +2737,7 @@
         },
         {
           "title": "No direct financial service",
-          "body": "Wakama does not lend, does not collect deposits and does not make the final credit decision."
+          "body": "Wakama is not a lender, does not collect deposits, does not decide credit and does not provide regulated financial services directly to farmers."
         },
         {
           "title": "Wakama’s role",
