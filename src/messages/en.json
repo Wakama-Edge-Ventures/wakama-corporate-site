@@ -13,7 +13,7 @@
     "pilot": "Pilot",
     "compliance": "Compliance",
     "company": "Company",
-    "cta": "Request a pilot",
+    "cta": "Request an MFI / SFD pilot",
     "farmerAccess": "Farmer access",
     "languageSwitch": "Switch to French",
     "openMenu": "Open menu",
@@ -21,11 +21,11 @@
   },
   "hero": {
     "identity": "Field intelligence for credit",
-    "title": "Finance agriculture with verified field intelligence.",
-    "subtitle": "Wakama turns hard-to-assess farmers into scored, documented and auditable credit files — while your institution keeps the final decision.",
+    "title": "The AI infrastructure that makes African agriculture financeable.",
+    "subtitle": "Wakama helps MFIs / SFDs, banks, insurers and agricultural programs turn farmers, plots and field signals into readable, scored, monitored and auditable files.",
     "positioning": "Wakama helps West African financial institutions finance agriculture without building the field, data and compliance infrastructure themselves.",
-    "primaryCta": "Request a pilot",
-    "secondaryCta": "See the workflow",
+    "primaryCta": "Request an MFI / SFD pilot",
+    "secondaryCta": "Start with an AgriCredit Diagnostic",
     "proofs": [
       "Farmer onboarding live",
       "Institution dashboard live",
@@ -34,29 +34,32 @@
   },
   "homeV2": {
     "seo": {
-      "title": "Wakama — Agricultural credit infrastructure for financial institutions",
+      "title": "Wakama, Agricultural credit infrastructure for financial institutions",
       "description": "Wakama helps financial institutions finance agriculture with verified field data, agricultural scoring, auditable files and a 90-day pilot."
     },
     "hero": {
       "eyebrow": "AGRICULTURAL CREDIT INFRASTRUCTURE",
-      "title": "Agricultural credit infrastructure for Côte d’Ivoire and UEMOA.",
-      "subtitle": "Wakama helps MFIs, banks, insurers, cooperatives and agricultural programs turn field data, plots and risk signals into readable, scored and auditable files.",
-      "primaryCta": "Request a pilot",
-      "secondaryCta": "See the workflow",
+      "title": "The AI infrastructure that makes African agriculture financeable.",
+      "subtitle": "Wakama helps MFIs / SFDs, banks, insurers and agricultural programs turn farmers, plots and field signals into readable, scored, monitored and auditable files.",
+      "primaryCta": "Request an MFI / SFD pilot",
+      "secondaryCta": "Start with an AgriCredit Diagnostic",
       "proofLine": "You keep the decision. Wakama brings the evidence.",
       "proofs": [
-        "90 days",
-        "100 to 300 files",
-        "Decision retained",
-        "Auditable data"
+        "200+ farmers onboarded",
+        "5 partner cooperatives",
+        "5 MoUs signed",
+        "5 IoT stations deployed",
+        "500+ ha monitored through NDVI",
+        "Solana grant delivered 100%"
       ],
       "visual": {
         "label": "Wakama workflow",
         "title": "From field data to a committee-ready file",
         "steps": [
-          "Field data",
-          "Wakama Score",
-          "Committee-ready file"
+          "Onboard",
+          "Score",
+          "Monitor",
+          "Report"
         ],
         "highlights": [
           {
@@ -87,39 +90,39 @@
           "body": "KYC, plots, cooperatives, weather, documents and farmer history rarely arrive in a usable format."
         },
         {
-          "title": "Decisions need better support",
-          "body": "A credit committee needs a clear, comparable and reviewable file — not only field intuition."
+          "title": "The committee lacks evidence",
+          "body": "A credit committee needs a clear, comparable and reviewable file, not only field intuition."
         }
       ]
     },
     "operatingSystem": {
       "title": "From field reality to credit committee, Wakama builds the evidence.",
-      "body": "We collect, verify, score and document agricultural files. Your institution keeps the credit policy, committee and final decision.",
+      "body": "We collect, verify, score, monitor and document agricultural files. Your institution keeps the credit policy, committee and final decision.",
       "governanceLabel": "Governance retained",
       "governanceBody": "Wakama prepares the file. The institution keeps the decision.",
       "steps": [
         {
-          "title": "Read the field",
-          "body": "KYC, plots, documents, cooperatives and farmer activity."
+          "title": "Onboard",
+          "body": "KYC, documents, cooperatives and verified GPS plots."
         },
         {
-          "title": "Verify the signals",
-          "body": "Geolocation, weather, satellite, IoT and field evidence."
+          "title": "Score",
+          "body": "Explainable, AI-assisted and non-decision agricultural score."
         },
         {
-          "title": "Structure the risk",
-          "body": "Wakama Score, Idjor summary and a committee-ready file."
+          "title": "Monitor",
+          "body": "NDVI, weather, IoT, alerts and campaign monitoring."
         },
         {
-          "title": "Monitor after decision",
-          "body": "Monitoring, alerts, reporting and audit trail."
+          "title": "Report",
+          "body": "Committee files, institutional dashboards, API and audit trail."
         }
       ],
       "readiness": {
         "imageAlt": "Satellite view of agricultural plots",
         "dashboardLabel": "Institution dashboard",
         "title": "An agricultural file ready for committee.",
-        "status": "Pilot-ready",
+        "status": "Pilot scoped",
         "body": "Field signals become a readable file: identity, plot, score, evidence, alerts and justification.",
         "signals": [
           "KYC",
@@ -199,22 +202,22 @@
       "cta": "View compliance",
       "partnersLabel": "Trust layer",
       "partnersBody": "Different references, one requirement: make agricultural data usable and verifiable.",
-      "solanaLabel": "Backed by Solana",
+      "solanaLabel": "Solana integrity layer",
       "columns": [
         {
           "title": "Information security",
-          "body": "ISO/IEC 27001 program engaged with AQC. Certification in preparation.",
+          "body": "ISO/IEC 27001 program engaged with AQC. ISO/IEC 27001 certification in preparation.",
           "items": [
             "ISO/IEC 27001 implementation program with AQC",
             "CIA triad",
-            "Certification in preparation"
+            "ISO/IEC 27001 certification in preparation"
           ]
         },
         {
           "title": "Data integrity",
-          "body": "Solana Blockchain Trust Layer reinforces traceability, auditability and integrity proof.",
+          "body": "Solana integrity layer reinforces traceability, auditability and integrity proof.",
           "items": [
-            "Solana Blockchain Trust Layer",
+            "Solana integrity layer",
             "Traceability and auditability",
             "Wakama Oracle"
           ]
@@ -233,25 +236,25 @@
     },
     "platformTeaser": {
       "eyebrow": "EMBEDDED AI",
-      "title": "Idjor turns field data into credit intelligence.",
+      "title": "Idjor turns field signals into explainable risk insight.",
       "body": "Idjor is not a separate chatbot. It is Wakama’s embedded AI agent that summarizes files, detects risk signals, extracts useful evidence and prepares a clear reading for credit teams.",
       "chips": [
         "Farmer profile",
         "Risk signals",
-        "Recommended action"
+        "Point proposed for review"
       ],
       "platformLabel": "File reading",
       "points": [
         "Farmer profile",
         "Risk signals",
-        "Recommended action",
+        "Point proposed for review",
         "Compliance notes"
       ],
       "cta": "Explore the platform",
       "card": {
         "eyebrow": "EMBEDDED AI AGENT",
         "title": "Farmer file summary",
-        "status": "Ready",
+        "status": "For review",
         "scanLabel": "Scan, synthesis, signals",
         "chips": [
           "Farmer profile",
@@ -269,8 +272,8 @@
             "body": "Production outlook is consistent, weather exposure is moderate, plot evidence needs review."
           },
           {
-            "title": "Recommended action",
-            "body": "Validate plot evidence, then send to committee with Wakama Score."
+            "title": "Point proposed for review",
+            "body": "Review plot evidence, then prepare the file for committee with Wakama Score. The score informs the institution’s review; it never replaces the final decision."
           },
           {
             "title": "Compliance notes",
@@ -282,14 +285,14 @@
     "finalCta": {
       "title": "What if your next agricultural files arrived already structured?",
       "subtitle": "Frame a limited Wakama pilot and measure, in real conditions, data quality, score readability and your team’s ability to operate a documented agricultural portfolio.",
-      "primaryCta": "Request an MFI pilot",
+      "primaryCta": "Request an MFI / SFD pilot",
       "secondaryCta": "View MFI solution"
     }
   },
   "trust": {
     "items": [
       "Farmer platform live",
-      "FMI dashboard live",
+      "MFI / SFD dashboard live",
       "Oracle admin live",
       "API infrastructure",
       "Rooted in Côte d’Ivoire",
@@ -329,8 +332,8 @@
         "body": "Field controls, geolocation and operational consistency checks."
       },
       {
-        "title": "AI scoring & credit documentation",
-        "body": "Wakama Score, risk summary, committee-ready credit file and stronger data proof through a blockchain layer built for auditability."
+        "title": "AI-assisted, explainable, non-decision agricultural score",
+        "body": "Wakama Score, risk summary, committee-ready credit file and stronger data proof through an integrity layer built for auditability. The score informs the institution’s review; it never replaces the final decision."
       },
       {
         "title": "Institution dashboards & audit trail",
@@ -362,7 +365,7 @@
   },
   "pilotPage": {
     "seo": {
-      "title": "Wakama Pilot — Prove field value in 90 days",
+      "title": "Wakama Pilot, Prove field value in 90 days",
       "description": "Launch a 90-day Wakama pilot to structure an initial agricultural portfolio with verified field data, score, committee files, dashboard and final report."
     },
     "hero": {
@@ -438,19 +441,19 @@
       "steps": [
         {
           "title": "Frame the portfolio",
-          "body": "Week 1–2 — Zones, value chains, volumes, responsibilities and success criteria are defined with your teams."
+          "body": "Week 1–2, Zones, value chains, volumes, responsibilities and success criteria are defined with your teams."
         },
         {
           "title": "Collect field evidence",
-          "body": "Week 3–6 — KYC, plots, cooperatives, documents, weather, satellite and useful risk signals."
+          "body": "Week 3–6, KYC, plots, cooperatives, documents, weather, satellite and useful risk signals."
         },
         {
           "title": "Turn data into files",
-          "body": "Week 7–10 — Wakama Score, Idjor summary, credit file, alerts and pilot dashboard."
+          "body": "Week 7–10, Wakama Score, Idjor summary, credit file, alerts and pilot dashboard."
         },
         {
           "title": "Review and decide",
-          "body": "Week 11–12 — Final report, ROI reading, field learnings and scaling recommendation."
+          "body": "Week 11–12, Final report, ROI reading, field learnings and scaling recommendation."
         }
       ]
     },
@@ -524,7 +527,7 @@
           "body": "Structuring, verification, scoring and file preparation."
         },
         {
-          "title": "Solana Blockchain Trust Layer",
+          "title": "Solana integrity layer",
           "label": "Integrity layer",
           "body": "Reinforced integrity, traceability and audit trail."
         },
@@ -536,8 +539,8 @@
     },
     "security": {
       "title": "Even a limited pilot must meet serious requirements.",
-      "body": "Wakama works with AQC in Casablanca on an ISO/IEC 27001 implementation program based on the CIA triad. Certification is in preparation.",
-      "badge": "Certification in preparation",
+      "body": "Wakama works with AQC in Casablanca on an ISO/IEC 27001 implementation program based on the CIA triad. ISO/IEC 27001 certification in preparation.",
+      "badge": "ISO/IEC 27001 certification in preparation",
       "ciaLabel": "CIA {number}",
       "cia": [
         {
@@ -612,7 +615,7 @@
   },
   "solutionsImf": {
     "seo": {
-      "title": "Wakama MFI Solution — Agricultural credit files, scoring and committee readiness",
+      "title": "Wakama MFI Solution, Agricultural credit files, scoring and committee readiness",
       "description": "Wakama helps MFIs finance more farmers with verified field data, Wakama Score, committee files, monitoring and auditability."
     },
     "hero": {
@@ -629,8 +632,8 @@
         "Auditable data"
       ],
       "mockupLabel": "Agricultural credit file",
-      "mockupTitle": "Ready for committee",
-      "mockupStatus": "Pilot-ready",
+      "mockupTitle": "Prepared for committee review",
+      "mockupStatus": "Pilot scoped",
       "preview": [
         {
           "label": "KYC",
@@ -650,7 +653,7 @@
       "eyebrow": "THE OPERATIONAL BOTTLENECK",
       "title": "Agricultural risk often starts before credit: in file production.",
       "description": "For an MFI, financing agriculture requires more than market appetite. It means identifying farmers, verifying plots, collecting documents, understanding the season and monitoring the portfolio after disbursement.",
-      "statement": "Wakama reduces the cost of producing a reliable decision.",
+      "statement": "Wakama reduces the cost of producing a reliable file for your decision.",
       "cards": [
         {
           "title": "Costly processing",
@@ -712,7 +715,7 @@
     },
     "roi": {
       "eyebrow": "OPERATIONAL ROI",
-      "title": "Measure what field operations cost — then reduce it.",
+      "title": "Measure what field operations cost, then reduce it.",
       "description": "The Wakama pilot compares before and after: processing time, field cost, file completeness, evidence quality and monitoring capacity.",
       "before": {
         "title": "Before Wakama",
@@ -859,7 +862,7 @@
           "body": "Structuring, verification, scoring and file preparation."
         },
         {
-          "title": "Solana Blockchain Trust Layer",
+          "title": "Solana integrity layer",
           "body": "Reinforced integrity, traceability and audit trail."
         },
         {
@@ -875,7 +878,7 @@
     "security": {
       "title": "Sensitive data requires serious method.",
       "body": "Wakama works with AQC in Casablanca on an ISO/IEC 27001 implementation program based on the CIA triad. Certification is in preparation.",
-      "program": "Program engaged with AQC — Casablanca.",
+      "program": "Program engaged with AQC, Casablanca.",
       "badge": "Certification in preparation",
       "ciaLabel": "CIA {number}",
       "cia": [
@@ -902,7 +905,7 @@
   },
   "solutionsBank": {
     "seo": {
-      "title": "Wakama Banks — Data infrastructure for agricultural credit",
+      "title": "Wakama Banks, Data infrastructure for agricultural credit",
       "description": "Wakama helps banks explore, qualify and monitor agricultural portfolios with verified field data, scoring, committee files and audit trail."
     },
     "hero": {
@@ -1044,7 +1047,7 @@
           "body": "Structuring, qualification, scoring and file preparation."
         },
         {
-          "title": "Solana Blockchain Trust Layer",
+          "title": "Solana integrity layer",
           "body": "Reinforced integrity, traceability and audit trail."
         },
         {
@@ -1067,7 +1070,7 @@
   },
   "solutionsInsurance": {
     "seo": {
-      "title": "Wakama Insurance — Data and monitoring for agricultural insurance",
+      "title": "Wakama Insurance, Data and monitoring for agricultural insurance",
       "description": "Wakama helps insurers and agricultural programs use plot, weather, NDVI and field data to better understand and monitor agricultural risk."
     },
     "hero": {
@@ -1209,7 +1212,7 @@
           "body": "Structuring, monitoring, segmentation and signal documentation."
         },
         {
-          "title": "Solana Blockchain Trust Layer",
+          "title": "Solana integrity layer",
           "body": "Reinforced integrity, traceability and audit trail."
         },
         {
@@ -1232,7 +1235,7 @@
   },
   "compliancePage": {
     "seo": {
-      "title": "Wakama Compliance — Governance, auditability and information security",
+      "title": "Wakama Compliance, Governance, auditability and information security",
       "description": "Discover how Wakama fits regulated institutional governance through responsibility separation, audit trail, data integrity and an ISO/IEC 27001 program in preparation."
     },
     "hero": {
@@ -1393,7 +1396,7 @@
       "steps": [
         "Field data",
         "Wakama structuring",
-        "Solana Blockchain Trust Layer",
+        "Solana integrity layer",
         "Wakama Oracle",
         "Institutional systems"
       ],
@@ -1402,10 +1405,10 @@
     "iso": {
       "eyebrow": "INFORMATION SECURITY",
       "title": "Security must be designed before scaling.",
-      "body": "Wakama has engaged Access Quality Consulting (AQC), based in Casablanca, to support the implementation of an information security management system aligned with ISO/IEC 27001. Certification is in preparation.",
-      "badge": "Certification in preparation",
+      "body": "Wakama has engaged Access Quality Consulting (AQC), based in Casablanca, to support the implementation of an information security management system aligned with ISO/IEC 27001. ISO/IEC 27001 certification in preparation.",
+      "badge": "ISO/IEC 27001 certification in preparation",
       "partnerLabel": "Program engaged",
-      "partnerName": "AQC — Casablanca",
+      "partnerName": "AQC, Casablanca",
       "scopeLabel": "Scope",
       "cia": [
         {
@@ -1456,17 +1459,17 @@
     "eyebrow": "Ecosystem",
     "title": "Ecosystem & infrastructure partners",
     "description": "A field, satellite and verifiable data layer, strengthened by Solana auditability and AQC-supported security governance.",
-    "solanaLabel": "Backed by Solana"
+    "solanaLabel": "Solana integrity layer"
   },
   "securityTrust": {
     "eyebrow": "Information security governance",
     "title": "An infrastructure aligned with ISO/IEC 27001.",
-    "subtitle": "With AQC in Casablanca, Wakama is deploying an ISO/IEC 27001 implementation program grounded in the CIA triad — Confidentiality, Integrity and Availability.",
+    "subtitle": "With AQC in Casablanca, Wakama is deploying an ISO/IEC 27001 implementation program grounded in the CIA triad, Confidentiality, Integrity and Availability.",
     "body": "This approach is already being applied across our information environment: sensors, field agents, servers, cloud, SaaS and data systems. It reinforces the trust, traceability and resilience required by financial institutions.",
-    "status": "Certification in progress",
-    "statusBody": "Wakama already applies this information governance approach while the certification process is being prepared.",
+    "status": "ISO/IEC 27001 certification in preparation",
+    "statusBody": "Wakama already applies this information governance approach. ISO/IEC 27001 certification in preparation.",
     "partnerLabel": "Implementation partner",
-    "partnerName": "AQC — Casablanca, Morocco",
+    "partnerName": "AQC, Casablanca, Morocco",
     "scopeLabel": "Scope covered",
     "cta": "See our compliance approach",
     "closing": "Built for institutional trust.",
@@ -1614,7 +1617,7 @@
     "card": {
       "eyebrow": "Integrated AI agent",
       "title": "Farmer file summary",
-      "status": "Ready",
+      "status": "For review",
       "sections": [
         {
           "title": "Farmer profile",
@@ -1625,8 +1628,8 @@
           "body": "Production signals are consistent, weather exposure is moderate, plot evidence needs review."
         },
         {
-          "title": "Recommended next action",
-          "body": "Validate plot evidence, then send to credit committee with Wakama Score."
+          "title": "Point proposed for review",
+          "body": "Review plot evidence, then prepare the file for credit committee with Wakama Score. The score informs the institution’s review; it never replaces the final decision."
         },
         {
           "title": "Compliance notes",
@@ -1638,7 +1641,7 @@
   "visuals": {
     "dataFlow": {
       "label": "Field-to-oracle trust flow",
-      "status": "Backed by Solana",
+      "status": "Solana integrity layer",
       "roles": [
         "Input",
         "Collection",
@@ -1656,7 +1659,7 @@
           "body": "KYC, plots, documents and cooperatives."
         },
         {
-          "title": "Solana Blockchain trust layer",
+          "title": "Solana integrity layer",
           "body": "Integrity anchoring for auditable data."
         },
         {
@@ -1682,19 +1685,19 @@
   },
   "platformPage": {
     "seo": {
-      "title": "Wakama Platform — Data infrastructure, scoring and auditability",
+      "title": "Wakama Platform, Data infrastructure, scoring and auditability",
       "description": "Discover how Wakama turns agricultural field signals into scored, auditable files distributed to institutions through dashboards, reports and APIs."
     },
     "hero": {
       "eyebrow": "WAKAMA PLATFORM",
-      "title": "Turn agricultural field reality into decision infrastructure.",
+      "title": "Turn agricultural field reality into evidence infrastructure for institutions.",
       "subtitle": "Wakama connects farmers, cooperatives, plots, documents and risk signals into an infrastructure designed to produce readable, scored, monitored and auditable agricultural files.",
       "positioning": "One foundation to collect, verify, score, document and distribute agricultural data to institutions.",
       "primaryCta": "Request a pilot",
       "secondaryCta": "View compliance",
       "proofs": [
         "Field data",
-        "AI scoring",
+        "AI-assisted, explainable, non-decision agricultural score",
         "Solana integrity",
         "Institutional dashboards"
       ],
@@ -1833,11 +1836,11 @@
       ]
     },
     "idjor": {
-      "title": "Idjor turns raw data into credit intelligence.",
+      "title": "Idjor turns raw data into explainable risk insight.",
       "body": "Idjor is Wakama’s embedded AI agent. It summarizes files, extracts useful evidence, detects weak signals and prepares an actionable reading for credit, risk and compliance teams.",
       "panelLabel": "Idjor engine",
       "panelTitle": "Embedded operational summary",
-      "panelStatus": "Ready",
+      "panelStatus": "For review",
       "scanLabel": "Team-ready reading",
       "chips": [
         "KYC",
@@ -1889,9 +1892,9 @@
     "security": {
       "title": "Designed to carry sensitive data.",
       "body": "Wakama’s infrastructure is designed to protect sensitive data, maintain integrity and ensure availability in demanding institutional contexts.",
-      "badge": "Certification in preparation",
+      "badge": "ISO/IEC 27001 certification in preparation",
       "programLabel": "ISO/IEC 27001 program engaged with AQC",
-      "programBody": "Wakama works with AQC on the implementation of an information security management system based on the CIA triad. Certification is in preparation.",
+      "programBody": "Wakama works with AQC on the implementation of an information security management system based on the CIA triad. ISO/IEC 27001 certification in preparation.",
       "cta": "View compliance page",
       "pillars": [
         {
@@ -1916,10 +1919,10 @@
     }
   },
   "finalCta": {
-    "title": "Ready to test Wakama on your first agricultural files?",
+    "title": "Test Wakama on your first agricultural files.",
     "subtitle": "Let’s start with a limited, measurable and compliant pilot.",
-    "primaryCta": "Request an MFI pilot",
-    "secondaryCta": "Talk to the team"
+    "primaryCta": "Request an MFI / SFD pilot",
+    "secondaryCta": "Start with an AgriCredit Diagnostic"
   },
   "solutionsPrograms": {
     "hero": {
@@ -2141,7 +2144,7 @@
     }
   },
   "footer": {
-    "positioning": "Wakama makes agricultural portfolios more readable, traceable and usable for financial institutions.",
+    "positioning": "Wakama makes agricultural portfolios visible, scoreable, monitorable and auditable for financial institutions. Wakama does not lend and does not decide credit.",
     "diagnosticLabel": "AgriCredit Diagnostic",
     "linkedinLabel": "Wakama LinkedIn",
     "region": "Rooted in Côte d’Ivoire. Built for UEMOA.",
@@ -2179,13 +2182,13 @@
       ]
     },
     "farmerGateway": {
-      "body": "Farmer or cooperative? Prepare your agricultural file.",
+      "body": "Farmer or cooperative? Prepare your agricultural data for a partner institution.",
       "cta": "Go to Wakama Farmer"
     }
   },
   "companyPage": {
     "seo": {
-      "title": "Wakama Company — Team, governance and partners",
+      "title": "Wakama Company, Team, governance and partners",
       "description": "Discover Wakama Edge Ventures: founding team, advisors, governance doctrine, technology partners, AQC, Solana Foundation and institutional vision."
     },
     "hero": {
@@ -2237,24 +2240,46 @@
     "team": {
       "title": "A team built to connect field, finance and technology.",
       "body": "Wakama moves with a focused team designed to connect product vision, field execution and institutional dialogue.",
+      "foundersTitle": "Leadership / Founders",
       "founders": [
         {
           "name": "Jebbar Marouane",
           "role": "CEO & Founder",
           "body": "Leads product vision, strategic architecture and the build-out of Wakama as institutional infrastructure for agricultural credit.",
-          "initials": "JM"
+          "initials": "JM",
+          "linkedinUrl": "https://www.linkedin.com/in/jebbar-marouane"
         },
         {
-          "name": "Kouadio Syntyche",
+          "name": "Syntyche Kouadio",
           "role": "Chief Partnerships Officer & Co-Founder",
           "body": "Leads partnerships, field anchoring and relationships with cooperatives, communities and institutional stakeholders.",
-          "initials": "KS"
+          "initials": "SK",
+          "linkedinUrl": "https://www.linkedin.com/in/syntyche-kouadio-270430153/"
+        }
+      ],
+      "coreTitle": "Core operating team",
+      "core": [
+        {
+          "name": "Soumaya Jebbar",
+          "role": "Chief Financial & Administrative Officer, Finance, Audit & Governance",
+          "body": "More than 12 years of experience in finance, administration, management control and operational coordination across West Africa and Morocco. She leads Wakama’s financial structuring, reporting, budgets, administrative procedures and internal governance.",
+          "initials": "SJ",
+          "linkedinUrl": "https://www.linkedin.com/in/soumaya-j-444a279b/"
         }
       ]
     },
     "expertise": {
-      "advisorsTitle": "Expertise that helps secure execution.",
-      "advisors": [
+      "consultantsTitle": "Consultants & operational advisors",
+      "consultants": [
+        {
+          "name": "Kouadio Ahou Évodie",
+          "role": "QHSE & Field Procedures Consultant",
+          "body": "Quality, Health, Safety and Environment technician with experience in demanding hospital environments in Côte d’Ivoire and Belgium. She supports Wakama on field procedure formalization, operational risk prevention, field-agent safety awareness and continuous improvement of collection and control protocols.",
+          "initials": "KA"
+        }
+      ],
+      "strategicTitle": "Strategic advisors",
+      "strategicAdvisors": [
         {
           "name": "Abderrazak Kessam",
           "role": "Quality, process design and organizational structuring."
@@ -2274,17 +2299,6 @@
         {
           "name": "Moussa Bakayoko",
           "role": "Security, compliance and information system protection."
-        }
-      ],
-      "ambassadorsTitle": "Local relays that strengthen field anchoring.",
-      "ambassadors": [
-        {
-          "name": "Claude Kouadio",
-          "role": "Ambassador West Zone"
-        },
-        {
-          "name": "Ncho Armand",
-          "role": "Ambassador Center Zone"
         }
       ]
     },
@@ -2363,12 +2377,12 @@
         {
           "key": "solana",
           "title": "Solana Foundation",
-          "label": "Backed by Solana",
+          "label": "Solana integrity layer",
           "body": "Technology credibility for integrity, traceability and auditability."
         },
         {
           "key": "aqc",
-          "title": "AQC — ISO/IEC 27001",
+          "title": "AQC, ISO/IEC 27001",
           "body": "ISO/IEC 27001 support, CIA triad and certification in preparation."
         },
         {
@@ -2416,7 +2430,7 @@
   "simplePages": {
     "platformIntegration": {
       "seo": {
-        "title": "Wakama Integration — APIs, dashboards and institutional reporting",
+        "title": "Wakama Integration, APIs, dashboards and institutional reporting",
         "description": "Discover how Wakama integrates with institutional workflows through APIs, dashboards, reporting and verifiable data."
       },
       "hero": {
@@ -2455,7 +2469,7 @@
     },
     "platformScore": {
       "seo": {
-        "title": "Wakama Score — Agricultural scoring for institutions",
+        "title": "Wakama Score, Agricultural scoring for institutions",
         "description": "Explore Wakama Score, an agricultural score designed to document risk with field data and an explainable file."
       },
       "hero": {
@@ -2495,7 +2509,7 @@
     },
     "platformDashboards": {
       "seo": {
-        "title": "Wakama Dashboards — Institutional monitoring for agricultural portfolios",
+        "title": "Wakama Dashboards, Institutional monitoring for agricultural portfolios",
         "description": "Explore Wakama dashboards to monitor files, scores, alerts, plots and portfolio follow-up deliverables."
       },
       "hero": {
@@ -2534,7 +2548,7 @@
     },
     "solutionServices": {
       "seo": {
-        "title": "Wakama Services — Field execution and agricultural monitoring",
+        "title": "Wakama Services, Field execution and agricultural monitoring",
         "description": "Discover Wakama Services, the core offer for collection, verification, scoring, documentation and monitoring in agricultural portfolios."
       },
       "hero": {
@@ -2573,7 +2587,7 @@
     },
     "solutionScore": {
       "seo": {
-        "title": "Wakama Score — Make agricultural risk readable",
+        "title": "Wakama Score, Make agricultural risk readable",
         "description": "Discover Wakama Score to structure field data and produce an actionable reading of agricultural risk."
       },
       "hero": {
@@ -2612,7 +2626,7 @@
     },
     "solutionInsurance": {
       "seo": {
-        "title": "Wakama Insurance — Data for agricultural insurance",
+        "title": "Wakama Insurance, Data for agricultural insurance",
         "description": "Discover Wakama Insurance as a data and monitoring layer for insurers, banks and agricultural programs."
       },
       "hero": {
@@ -2651,7 +2665,7 @@
     },
     "privacy": {
       "seo": {
-        "title": "Privacy Policy — Wakama",
+        "title": "Privacy Policy, Wakama",
         "description": "Review Wakama’s institutional privacy policy covering collected data, purposes, security and user rights."
       },
       "hero": {
@@ -2703,7 +2717,7 @@
     },
     "terms": {
       "seo": {
-        "title": "Terms of Use — Wakama",
+        "title": "Terms of Use, Wakama",
         "description": "Review Wakama’s website terms of use and the company’s institutional role."
       },
       "hero": {

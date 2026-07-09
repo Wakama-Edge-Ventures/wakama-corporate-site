@@ -360,8 +360,8 @@ export async function POST(request: Request) {
   const receivedAt = new Date().toISOString();
   const subject =
     locale === "en"
-      ? `New Wakama pilot request — ${organization}`
-      : `Nouvelle demande de pilote Wakama — ${organization}`;
+      ? `New Wakama pilot request, ${organization}`
+      : `Nouvelle demande de pilote Wakama, ${organization}`;
 
   const {html, text} = buildEmailContent({
     fullName,

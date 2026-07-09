@@ -40,18 +40,18 @@ export const seoRoutes = {
     priority: 1,
     copy: {
       fr: {
-        title: "Wakama — Infrastructure de crédit agricole en Côte d’Ivoire et UEMOA",
+        title: "Wakama, Infrastructure de crédit agricole en Côte d’Ivoire et UEMOA",
         description:
           "Wakama aide les IMF, banques et assureurs à financer l’agriculture avec données terrain vérifiées, scoring agricole, dossiers auditables et monitoring portefeuille.",
-        openGraphTitle: "Wakama — Infrastructure de crédit agricole",
+        openGraphTitle: "Wakama, Infrastructure de crédit agricole",
         openGraphDescription:
           "Données terrain, scoring agricole, dossiers auditables et monitoring pour institutions financières.",
       },
       en: {
-        title: "Wakama — Agricultural Credit Infrastructure for Côte d’Ivoire and UEMOA",
+        title: "Wakama, Agricultural Credit Infrastructure for Côte d’Ivoire and UEMOA",
         description:
           "Wakama helps MFIs, banks and insurers finance agriculture with verified field data, agricultural scoring, auditable files and portfolio monitoring.",
-        openGraphTitle: "Wakama — Agricultural Credit Infrastructure",
+        openGraphTitle: "Wakama, Agricultural Credit Infrastructure",
         openGraphDescription:
           "Field data, agricultural scoring, auditable files and portfolio monitoring for financial institutions.",
       },
@@ -64,12 +64,12 @@ export const seoRoutes = {
     priority: 0.9,
     copy: {
       fr: {
-        title: "Pilote Wakama — Tester le crédit agricole en 90 jours",
+        title: "Pilote Wakama, Tester le crédit agricole en 90 jours",
         description:
           "Lancez un pilote Wakama sur 100 à 300 dossiers agricoles : KYC, parcelles, Score Wakama, dossier comité, dashboard et rapport final.",
       },
       en: {
-        title: "Wakama Pilot — Test Agricultural Credit in 90 Days",
+        title: "Wakama Pilot, Test Agricultural Credit in 90 Days",
         description:
           "Launch a Wakama pilot on 100 to 300 agricultural files: KYC, plots, Wakama Score, committee file, dashboard and final report.",
       },
@@ -85,12 +85,12 @@ export const seoRoutes = {
     priority: 0.85,
     copy: {
       fr: {
-        title: "Plateforme Wakama — Scoring, Oracle et dashboards agricoles",
+        title: "Plateforme Wakama, Scoring, Oracle et dashboards agricoles",
         description:
           "Découvrez la plateforme Wakama : données terrain, Score Wakama, Idjor, Oracle, dashboards institutionnels et traçabilité Solana.",
       },
       en: {
-        title: "Wakama Platform — Scoring, Oracle and Agricultural Dashboards",
+        title: "Wakama Platform, Scoring, Oracle and Agricultural Dashboards",
         description:
           "Explore the Wakama platform: field data, Wakama Score, Idjor, Oracle, institutional dashboards and Solana-based traceability.",
       },
@@ -106,12 +106,12 @@ export const seoRoutes = {
     priority: 0.8,
     copy: {
       fr: {
-        title: "Conformité Wakama — Gouvernance, audit trail et ISO 27001",
+        title: "Conformité Wakama, Gouvernance, audit trail et ISO 27001",
         description:
           "Wakama structure scoring, documentation et monitoring sans déplacer la décision crédit. Programme ISO/IEC 27001 engagé avec AQC.",
       },
       en: {
-        title: "Wakama Compliance — Governance, Audit Trail and ISO 27001",
+        title: "Wakama Compliance, Governance, Audit Trail and ISO 27001",
         description:
           "Wakama structures scoring, documentation and monitoring without moving the credit decision. ISO/IEC 27001 program engaged with AQC.",
       },
@@ -127,12 +127,12 @@ export const seoRoutes = {
     priority: 0.75,
     copy: {
       fr: {
-        title: "Wakama Edge Ventures — Équipe, terrain et partenaires",
+        title: "Wakama Edge Ventures, Équipe, terrain et partenaires",
         description:
           "Découvrez Wakama Edge Ventures, fondée par Marouane Jebbar : mission, équipe, actions terrain, partenaires Solana, AQC, UP42 et Airbus.",
       },
       en: {
-        title: "Wakama Edge Ventures — Team, Field Work and Partners",
+        title: "Wakama Edge Ventures, Team, Field Work and Partners",
         description:
           "Discover Wakama Edge Ventures, founded by Marouane Jebbar: mission, team, field actions, Solana, AQC, UP42 and Airbus partners.",
       },
@@ -148,12 +148,12 @@ export const seoRoutes = {
     priority: 0.9,
     copy: {
       fr: {
-        title: "Wakama IMF/SFD — Scoring et dossiers crédit agricole",
+        title: "Wakama IMF/SFD, Scoring et dossiers crédit agricole",
         description:
           "Wakama aide les IMF et SFD à réduire le coût d’instruction agricole avec données terrain, scoring, dossiers comité, monitoring et audit trail.",
       },
       en: {
-        title: "Wakama for MFIs — Agricultural Scoring and Credit Files",
+        title: "Wakama for MFIs, Agricultural Scoring and Credit Files",
         description:
           "Wakama helps MFIs reduce agricultural credit processing costs with field data, scoring, committee-ready files, monitoring and audit trails.",
       },
@@ -169,12 +169,12 @@ export const seoRoutes = {
     priority: 0.9,
     copy: {
       fr: {
-        title: "Wakama Banques — Infrastructure data pour crédit agricole",
+        title: "Wakama Banques, Infrastructure data pour crédit agricole",
         description:
           "Wakama aide les banques à qualifier coopératives, PME agricoles et portefeuilles agri avec données vérifiées, scoring, dashboards et audit trail.",
       },
       en: {
-        title: "Wakama for Banks — Data Infrastructure for Agricultural Credit",
+        title: "Wakama for Banks, Data Infrastructure for Agricultural Credit",
         description:
           "Wakama helps banks qualify cooperatives, agribusiness SMEs and agricultural portfolios with verified data, scoring, dashboards and audit trail.",
       },
@@ -190,12 +190,12 @@ export const seoRoutes = {
     priority: 0.9,
     copy: {
       fr: {
-        title: "Wakama Assurance — Données et monitoring pour assurance agricole",
+        title: "Wakama Assurance, Données et monitoring pour assurance agricole",
         description:
           "Wakama aide assureurs et programmes agricoles à exploiter parcelles, météo, NDVI et terrain pour mieux comprendre et suivre le risque agricole.",
       },
       en: {
-        title: "Wakama Insurance — Data and Monitoring for Agricultural Insurance",
+        title: "Wakama Insurance, Data and Monitoring for Agricultural Insurance",
         description:
           "Wakama helps insurers and agricultural programs use plot, weather, NDVI and field data to understand and monitor agricultural risk.",
       },
@@ -211,12 +211,12 @@ export const seoRoutes = {
     priority: 0.85,
     copy: {
       fr: {
-        title: "Wakama Programmes — Inclusion financière agricole mesurable",
+        title: "Wakama Programmes, Inclusion financière agricole mesurable",
         description:
           "Wakama aide bailleurs, ministères, agro-industriels et programmes agricoles à structurer des portefeuilles producteurs avec données terrain, scoring, monitoring et reporting impact.",
       },
       en: {
-        title: "Wakama Programs — Measurable Agricultural Financial Inclusion",
+        title: "Wakama Programs, Measurable Agricultural Financial Inclusion",
         description:
           "Wakama helps donors, ministries, agribusinesses and agricultural programs structure farmer portfolios with field data, scoring, monitoring and impact reporting.",
       },
@@ -232,12 +232,12 @@ export const seoRoutes = {
     priority: 0.85,
     copy: {
       fr: {
-        title: "Diagnostic AgriCredit — Cadrer un portefeuille agricole finançable",
+        title: "Diagnostic AgriCredit, Cadrer un portefeuille agricole finançable",
         description:
           "Analysez une filière, une zone ou un portefeuille agricole avant pilote : données disponibles, coûts terrain, scoring readiness, KPIs et plan de déploiement Wakama.",
       },
       en: {
-        title: "AgriCredit Diagnostic — Frame a Financeable Agricultural Portfolio",
+        title: "AgriCredit Diagnostic, Frame a Financeable Agricultural Portfolio",
         description:
           "Analyze a value chain, zone or agricultural portfolio before piloting: available data, field costs, scoring readiness, KPIs and Wakama deployment plan.",
       },
@@ -253,12 +253,12 @@ export const seoRoutes = {
     priority: 0.65,
     copy: {
       fr: {
-        title: "Wakama Integration — APIs et intégration aux workflows institutionnels",
+        title: "Wakama Integration, APIs et intégration aux workflows institutionnels",
         description:
           "Découvrez comment Wakama connecte APIs, reporting et données agricoles vérifiées aux workflows d’IMF, banques et assureurs.",
       },
       en: {
-        title: "Wakama Integration — APIs for Institutional Agricultural Workflows",
+        title: "Wakama Integration, APIs for Institutional Agricultural Workflows",
         description:
           "Discover how Wakama connects APIs, reporting and verified agricultural data to MFI, bank and insurer workflows.",
       },
@@ -275,12 +275,12 @@ export const seoRoutes = {
     priority: 0.65,
     copy: {
       fr: {
-        title: "Wakama Score — Scoring agricole pour IMF, banques et assureurs",
+        title: "Wakama Score, Scoring agricole pour IMF, banques et assureurs",
         description:
           "Explorez Wakama Score pour structurer le risque crédit agricole avec données terrain, signaux NDVI, météo et dossier explicable.",
       },
       en: {
-        title: "Wakama Score — Agricultural Scoring for MFIs, Banks and Insurers",
+        title: "Wakama Score, Agricultural Scoring for MFIs, Banks and Insurers",
         description:
           "Explore Wakama Score to structure agricultural credit risk with field data, NDVI signals, weather and an explainable file.",
       },
@@ -297,12 +297,12 @@ export const seoRoutes = {
     priority: 0.7,
     copy: {
       fr: {
-        title: "Dashboards Wakama — Monitoring des portefeuilles agricoles",
+        title: "Dashboards Wakama, Monitoring des portefeuilles agricoles",
         description:
           "Suivez dossiers, alertes, campagnes, parcelles et portefeuilles agricoles institutionnels avec les dashboards Wakama.",
       },
       en: {
-        title: "Wakama Dashboards — Monitoring for Agricultural Portfolios",
+        title: "Wakama Dashboards, Monitoring for Agricultural Portfolios",
         description:
           "Track files, alerts, campaigns, plots and institutional agricultural portfolios with Wakama dashboards.",
       },
@@ -319,12 +319,12 @@ export const seoRoutes = {
     priority: 0.3,
     copy: {
       fr: {
-        title: "Politique de confidentialité — Wakama",
+        title: "Politique de confidentialité, Wakama",
         description:
           "Consultez la politique de confidentialité de Wakama relative aux données, à la sécurité et aux droits des utilisateurs.",
       },
       en: {
-        title: "Privacy Policy — Wakama",
+        title: "Privacy Policy, Wakama",
         description:
           "Review Wakama’s privacy policy covering data handling, security and user rights.",
       },
@@ -340,12 +340,12 @@ export const seoRoutes = {
     priority: 0.3,
     copy: {
       fr: {
-        title: "Conditions d’utilisation — Wakama",
+        title: "Conditions d’utilisation, Wakama",
         description:
           "Consultez les conditions d’utilisation du site Wakama et le cadre de responsabilité de l’entreprise.",
       },
       en: {
-        title: "Terms of Use — Wakama",
+        title: "Terms of Use, Wakama",
         description:
           "Review Wakama’s website terms of use and the company’s responsibility framework.",
       },
@@ -361,12 +361,12 @@ export const seoRoutes = {
     priority: 0.6,
     copy: {
       fr: {
-        title: "Wakama Services — Exécution terrain et dossiers agricoles vérifiés",
+        title: "Wakama Services, Exécution terrain et dossiers agricoles vérifiés",
         description:
           "Découvrez l’offre Wakama Services pour l’onboarding producteurs, le KYC agricole, la géolocalisation parcellaire et le monitoring portefeuille.",
       },
       en: {
-        title: "Wakama Services — Field Execution and Verified Agricultural Files",
+        title: "Wakama Services, Field Execution and Verified Agricultural Files",
         description:
           "Discover Wakama Services for farmer onboarding, agricultural KYC, plot geolocation and portfolio monitoring.",
       },
@@ -382,12 +382,12 @@ export const seoRoutes = {
     priority: 0.6,
     copy: {
       fr: {
-        title: "Wakama Score — Lecture du risque crédit agricole",
+        title: "Wakama Score, Lecture du risque crédit agricole",
         description:
           "Découvrez comment Wakama Score aide les institutions à documenter le risque agricole avec données terrain vérifiées et audit trail.",
       },
       en: {
-        title: "Wakama Score — Agricultural Credit Risk Readability",
+        title: "Wakama Score, Agricultural Credit Risk Readability",
         description:
           "Discover how Wakama Score helps institutions document agricultural risk with verified field data and audit trails.",
       },
@@ -403,11 +403,11 @@ export const seoRoutes = {
     indexable: false,
     copy: {
       fr: {
-        title: "Archive Wakama — Version interne",
+        title: "Archive Wakama, Version interne",
         description: "Archive interne non destinée à l’indexation publique.",
       },
       en: {
-        title: "Wakama Archive — Internal Version",
+        title: "Wakama Archive, Internal Version",
         description: "Internal archive not intended for public indexing.",
       },
     },

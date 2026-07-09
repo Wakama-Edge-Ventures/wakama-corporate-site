@@ -47,7 +47,7 @@ export function HomeV2Hero() {
                 <ArrowRight aria-hidden="true" size={18} />
               </Button>
               <Button
-                href={`/${locale}/#how-it-works`}
+                href={`/${locale}/diagnostic-agricredit`}
                 variant="secondary"
                 size="md"
                 className="font-medium"
