@@ -616,14 +616,14 @@
   "solutionsImf": {
     "seo": {
       "title": "Wakama MFI Solution, Agricultural credit files, scoring and committee readiness",
-      "description": "Wakama helps MFIs finance more farmers with verified field data, Wakama Score, committee files, monitoring and auditability."
+      "description": "Wakama helps MFIs / SFDs process more agricultural files with verified field data, Wakama Score, committee files, monitoring and auditability."
     },
     "hero": {
-      "eyebrow": "MFI SOLUTION",
-      "title": "Finance more farmers without overloading your field operations.",
-      "subtitle": "Wakama helps MFIs produce more readable agricultural files: verified field data, Wakama Score, committee file, monitoring and audit trail.",
+      "eyebrow": "MFI / SFD SOLUTION",
+      "title": "Process more agricultural files without expanding your field operations.",
+      "subtitle": "Wakama helps MFIs / SFDs produce more readable agricultural files: verified field data, Wakama Score, committee file, monitoring and audit trail.",
       "promise": "Your institution keeps the credit policy, committee and final decision. Wakama structures the evidence.",
-      "primaryCta": "Request an MFI pilot",
+      "primaryCta": "Request an MFI / SFD pilot",
       "secondaryCta": "See the workflow",
       "proofs": [
         "90 days",
@@ -652,7 +652,7 @@
     "pain": {
       "eyebrow": "THE OPERATIONAL BOTTLENECK",
       "title": "Agricultural risk often starts before credit: in file production.",
-      "description": "For an MFI, financing agriculture requires more than market appetite. It means identifying farmers, verifying plots, collecting documents, understanding the season and monitoring the portfolio after disbursement.",
+      "description": "For an MFI / SFD, processing agricultural finance requires more than market appetite. It means identifying farmers, verifying plots, collecting documents, understanding the season and monitoring the portfolio after disbursement.",
       "statement": "Wakama reduces the cost of producing a reliable file for your decision.",
       "cards": [
         {
@@ -676,10 +676,10 @@
     "workflow": {
       "eyebrow": "WAKAMA METHOD",
       "title": "From farmer to committee, every step produces evidence.",
-      "description": "Wakama organizes the operational flow around a clear separation: we prepare the file, your MFI decides.",
-      "summary": "Collection -> verification -> scoring -> file -> MFI decision -> monitoring",
+      "description": "Wakama organizes the operational flow around a clear separation: we prepare the file, your MFI / SFD decides.",
+      "summary": "Collection -> verification -> scoring -> file -> MFI / SFD decision -> monitoring",
       "stepLabel": "Step {number}",
-      "decisionBadge": "MFI decision",
+      "decisionBadge": "MFI / SFD decision",
       "steps": [
         {
           "title": "Collect",
@@ -703,13 +703,13 @@
         },
         {
           "title": "Decide",
-          "body": "Your MFI applies its credit policy and keeps the final decision.",
-          "owner": "MFI"
+          "body": "Your MFI / SFD applies its credit policy and keeps the final decision.",
+          "owner": "MFI / SFD"
         },
         {
           "title": "Monitor",
           "body": "Monitoring, alerts, reporting and supervised portfolio.",
-          "owner": "Wakama + MFI"
+          "owner": "Wakama + MFI / SFD"
         }
       ]
     },
@@ -756,7 +756,7 @@
       ]
     },
     "dashboard": {
-      "eyebrow": "MFI DELIVERABLES",
+      "eyebrow": "MFI / SFD DELIVERABLES",
       "title": "What your teams receive: files ready for discussion.",
       "description": "Wakama turns field data into deliverables your credit, risk, compliance and operations teams can use.",
       "mockupLabel": "Institution dashboard",
@@ -790,7 +790,7 @@
     },
     "compliance": {
       "eyebrow": "GOVERNANCE",
-      "title": "Your MFI keeps the decision. Wakama makes the file defensible.",
+      "title": "Your MFI / SFD keeps the decision. Wakama makes the file defensible.",
       "body": "Wakama remains an infrastructure and execution layer. Credit policy, terms, committee, disbursement and regulatory responsibility stay with your institution.",
       "rule": "This separation improves documentation without moving responsibility.",
       "matrix": [
@@ -820,27 +820,27 @@
         },
         {
           "activity": "Credit policy",
-          "owner": "MFI"
+          "owner": "MFI / SFD"
         },
         {
           "activity": "Eligibility criteria",
-          "owner": "MFI"
+          "owner": "MFI / SFD"
         },
         {
           "activity": "Credit committee",
-          "owner": "MFI"
+          "owner": "MFI / SFD"
         },
         {
           "activity": "Final decision",
-          "owner": "MFI"
+          "owner": "MFI / SFD"
         },
         {
           "activity": "Disbursement",
-          "owner": "MFI"
+          "owner": "MFI / SFD"
         },
         {
           "activity": "Regulatory responsibility",
-          "owner": "MFI"
+          "owner": "MFI / SFD"
         }
       ]
     },
@@ -848,7 +848,7 @@
       "eyebrow": "Verifiable data",
       "title": "Field data reinforced for auditability.",
       "body": "Wakama structures agricultural data, then distributes it through a chain designed to preserve traceability, integrity and institutional review.",
-      "summary": "Field -> Wakama -> trust layer -> oracle -> MFI dashboard",
+      "summary": "Field -> Wakama -> integrity layer -> oracle -> MFI / SFD dashboard",
       "stepLabel": "Flow {number}",
       "trustBadge": "Integrity layer",
       "note": "The blockchain layer is not exposed to the end client: it reinforces data integrity and traceability.",
@@ -870,7 +870,7 @@
           "body": "Controlled distribution to dashboards, reports and APIs."
         },
         {
-          "title": "MFI Dashboard",
+          "title": "MFI / SFD Dashboard",
           "body": "Portfolio reading, monitoring, scoring and reporting."
         }
       ]
@@ -898,8 +898,8 @@
     },
     "finalCta": {
       "title": "Your first agricultural files can become your market proof.",
-      "subtitle": "Frame an MFI pilot with Wakama and measure, on a limited portfolio, data quality, score readability, processing cost and monitoring capacity.",
-      "primaryCta": "Request an MFI pilot",
+      "subtitle": "Frame an MFI / SFD pilot with Wakama and measure, on a limited portfolio, data quality, score readability, processing cost and monitoring capacity.",
+      "primaryCta": "Request an MFI / SFD pilot",
       "secondaryCta": "View Pilot page"
     }
   },
@@ -910,7 +910,7 @@
     },
     "hero": {
       "eyebrow": "BANKING SERVICE",
-      "title": "Open agricultural credit without building the entire field infrastructure.",
+      "title": "Explore and structure agricultural credit without building the full field infrastructure.",
       "subtitle": "Wakama helps banks explore, qualify and monitor agricultural portfolios with verified field data, explainable scores, committee-ready files and operational traceability.",
       "promise": "Your bank keeps the credit policy and decision. Wakama builds the usable data.",
       "primaryCta": "Request a portfolio diagnostic",
@@ -959,8 +959,8 @@
           "body": "KYC, documents, plots, local governance and available data."
         },
         {
-          "title": "Score",
-          "body": "Wakama Score, risk factors and portfolio segmentation."
+          "title": "Produce an explainable, non-decision agricultural score",
+          "body": "Wakama Score, risk factors and portfolio segmentation to document review without replacing the bank’s decision."
         },
         {
           "title": "Document",
@@ -1177,7 +1177,7 @@
     "governance": {
       "eyebrow": "GOVERNANCE",
       "title": "Wakama provides the data. The insurer carries the product.",
-      "description": "Wakama does not underwrite, price alone or carry insurance risk. Terms, policies, premiums, payouts and responsibilities remain with the insurer or program owner.",
+      "description": "Wakama does not underwrite, price, pay claims or carry insurance risk. Terms, policies, premiums, payouts and responsibilities remain with the insurer or program owner.",
       "leftTitle": "Wakama provides",
       "leftItems": [
         "Geolocated plots",
@@ -1964,7 +1964,7 @@
     },
     "audience": {
       "title": "One infrastructure for multiple field partners.",
-      "description": "Wakama does not replace existing actors. It creates a shared layer of data, scoring, monitoring and reporting to better coordinate decisions.",
+      "description": "Wakama does not replace existing actors. It creates a shared layer of data, scoring, monitoring and reporting to better coordinate partner roles, data and arbitration.",
       "cards": [
         {
           "title": "Donors & agencies",
@@ -2441,7 +2441,7 @@
       },
       "intro": {
         "title": "An infrastructure layer around your teams.",
-        "body": "Wakama connects collection, scoring, reporting and audit trail to your existing processes without moving the final decision outside your institution."
+        "body": "Wakama connects collection, scoring, API, reporting and audit trail to your existing processes for institution decision support, without replacing the final decision or moving it outside your institution."
       },
       "cards": [
         {
@@ -2480,11 +2480,11 @@
       },
       "intro": {
         "title": "A score built to document, not decide.",
-        "body": "Wakama Score acts as an analysis and preparation layer. It structures the signals needed for underwriting without taking over credit governance."
+        "body": "Wakama Score acts as an analysis and preparation layer. It structures the signals needed for institutional credit review without taking over credit governance. The score informs the institution’s review; it never replaces its decision."
       },
       "cards": [
         {
-          "title": "0–1000 score",
+          "title": "Indicative 0–1000 score",
           "body": "A simple, comparable reading of the observed agricultural portfolio."
         },
         {
@@ -2520,7 +2520,7 @@
       },
       "intro": {
         "title": "Clear portfolio steering for institutional teams.",
-        "body": "Dashboards bring together the key portfolio signals in a clear monitoring layer built for credit, risk, compliance and operations."
+        "body": "Dashboards bring together key portfolio signals in a clear post-credit agricultural risk monitoring layer built for credit, risk, compliance and operations."
       },
       "cards": [
         {
@@ -2529,7 +2529,7 @@
         },
         {
           "title": "Farmer files",
-          "body": "Each file remains readable, documented and ready for internal review."
+          "body": "Each file remains readable, documented and ready for internal review or committee discussion."
         },
         {
           "title": "Field alerts",
@@ -2537,7 +2537,7 @@
         },
         {
           "title": "Institutional reports",
-          "body": "Exports and summaries adapted to committees and support teams."
+          "body": "Exports, summaries and committee files adapted to committees and support teams."
         }
       ],
       "finalCta": {

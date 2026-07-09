@@ -616,14 +616,14 @@
   "solutionsImf": {
     "seo": {
       "title": "Solution IMF Wakama, Crédit agricole, scoring et dossiers comité",
-      "description": "Wakama aide les IMF / SFD à financer plus d’agriculteurs avec données terrain vérifiées, Score Wakama, dossiers comité, monitoring et auditabilité."
+      "description": "Wakama aide les IMF / SFD à instruire plus de dossiers agricoles avec données terrain vérifiées, Score Wakama, dossiers comité, monitoring et auditabilité."
     },
     "hero": {
       "eyebrow": "SOLUTION IMF / SFD",
-      "title": "Financez plus d’agriculteurs sans alourdir votre terrain.",
-      "subtitle": "Wakama aide les IMF à produire des dossiers agricoles plus lisibles : données terrain vérifiées, Score Wakama, fiche comité, monitoring et audit trail.",
+      "title": "Instruisez plus de dossiers agricoles sans alourdir votre terrain.",
+      "subtitle": "Wakama aide les IMF / SFD à produire des dossiers agricoles plus lisibles : données terrain vérifiées, Score Wakama, fiche comité, monitoring et audit trail.",
       "promise": "Votre institution garde la politique crédit, le comité et la décision finale. Wakama structure la preuve.",
-      "primaryCta": "Demander un pilote IMF",
+      "primaryCta": "Demander un pilote IMF / SFD",
       "secondaryCta": "Voir le workflow",
       "proofs": [
         "90 jours",
@@ -652,7 +652,7 @@
     "pain": {
       "eyebrow": "LE BLOCAGE OPÉRATIONNEL",
       "title": "Le risque agricole commence souvent avant le crédit : dans la production du dossier.",
-      "description": "Pour une IMF, financer l’agriculture demande plus qu’un appétit de marché. Il faut identifier les producteurs, vérifier les parcelles, collecter les documents, comprendre la saison et suivre le portefeuille après décaissement.",
+      "description": "Pour une IMF / SFD, instruire le financement agricole demande plus qu’un appétit de marché. Il faut identifier les producteurs, vérifier les parcelles, collecter les documents, comprendre la saison et suivre le portefeuille après décaissement.",
       "statement": "Wakama réduit le coût de production d’un dossier fiable pour votre décision.",
       "cards": [
         {
@@ -676,10 +676,10 @@
     "workflow": {
       "eyebrow": "MÉTHODE WAKAMA",
       "title": "Du producteur au comité, chaque étape produit une preuve.",
-      "description": "Wakama organise le flux opérationnel autour d’une séparation claire : nous préparons le dossier, votre IMF décide.",
-      "summary": "Collecte -> vérification -> scoring -> dossier -> décision IMF -> suivi",
+      "description": "Wakama organise le flux opérationnel autour d’une séparation claire : nous préparons le dossier, votre IMF / SFD décide.",
+      "summary": "Collecte -> vérification -> scoring -> dossier -> décision IMF / SFD -> suivi",
       "stepLabel": "Étape {number}",
-      "decisionBadge": "Décision IMF",
+      "decisionBadge": "Décision IMF / SFD",
       "steps": [
         {
           "title": "Collecter",
@@ -703,13 +703,13 @@
         },
         {
           "title": "Décider",
-          "body": "Votre IMF applique sa politique crédit et conserve la décision finale.",
-          "owner": "IMF"
+          "body": "Votre IMF / SFD applique sa politique crédit et conserve la décision finale.",
+          "owner": "IMF / SFD"
         },
         {
           "title": "Suivre",
           "body": "Monitoring, alertes, reporting et portefeuille sous surveillance.",
-          "owner": "Wakama + IMF"
+          "owner": "Wakama + IMF / SFD"
         }
       ]
     },
@@ -756,7 +756,7 @@
       ]
     },
     "dashboard": {
-      "eyebrow": "LIVRABLES IMF",
+      "eyebrow": "LIVRABLES IMF / SFD",
       "title": "Ce que vos équipes reçoivent : des dossiers prêts à être discutés.",
       "description": "Wakama transforme les données terrain en livrables utilisables par le crédit, le risque, la conformité et les opérations.",
       "mockupLabel": "Tableau de bord institutionnel",
@@ -790,7 +790,7 @@
     },
     "compliance": {
       "eyebrow": "GOUVERNANCE",
-      "title": "Votre IMF garde la décision. Wakama rend le dossier défendable.",
+      "title": "Votre IMF / SFD garde la décision. Wakama rend le dossier défendable.",
       "body": "Wakama reste une couche d’infrastructure et d’exécution. La politique crédit, les conditions, le comité, le décaissement et la responsabilité réglementaire restent chez votre institution.",
       "rule": "Cette séparation permet de mieux documenter sans déplacer la responsabilité.",
       "matrix": [
@@ -820,27 +820,27 @@
         },
         {
           "activity": "Politique crédit",
-          "owner": "IMF"
+          "owner": "IMF / SFD"
         },
         {
           "activity": "Critères d’éligibilité",
-          "owner": "IMF"
+          "owner": "IMF / SFD"
         },
         {
           "activity": "Comité crédit",
-          "owner": "IMF"
+          "owner": "IMF / SFD"
         },
         {
           "activity": "Décision finale",
-          "owner": "IMF"
+          "owner": "IMF / SFD"
         },
         {
           "activity": "Décaissement",
-          "owner": "IMF"
+          "owner": "IMF / SFD"
         },
         {
           "activity": "Responsabilité réglementaire",
-          "owner": "IMF"
+          "owner": "IMF / SFD"
         }
       ]
     },
@@ -848,7 +848,7 @@
       "eyebrow": "Données vérifiables",
       "title": "Des données terrain renforcées pour l’auditabilité.",
       "body": "Wakama structure les données agricoles, puis les distribue via une chaîne conçue pour préserver la traçabilité, l’intégrité et la relecture institutionnelle.",
-      "summary": "Terrain -> Wakama -> trust layer -> oracle -> dashboard IMF",
+      "summary": "Terrain -> Wakama -> couche d’intégrité -> oracle -> dashboard IMF / SFD",
       "stepLabel": "Flux {number}",
       "trustBadge": "Couche d’intégrité",
       "note": "La blockchain n’est pas exposée au client final : elle renforce l’intégrité et la traçabilité des données.",
@@ -870,7 +870,7 @@
           "body": "Distribution contrôlée vers dashboards, rapports et APIs."
         },
         {
-          "title": "Dashboard IMF",
+          "title": "Dashboard IMF / SFD",
           "body": "Lecture portefeuille, suivi, scoring et reporting."
         }
       ]
@@ -898,8 +898,8 @@
     },
     "finalCta": {
       "title": "Vos premiers dossiers agricoles peuvent devenir votre preuve de marché.",
-      "subtitle": "Cadrez un pilote IMF avec Wakama et mesurez, sur un portefeuille limité, la qualité des données, la lisibilité des scores, le coût d’instruction et la capacité de suivi.",
-      "primaryCta": "Demander un pilote IMF",
+      "subtitle": "Cadrez un pilote IMF / SFD avec Wakama et mesurez, sur un portefeuille limité, la qualité des données, la lisibilité des scores, le coût d’instruction et la capacité de suivi.",
+      "primaryCta": "Demander un pilote IMF / SFD",
       "secondaryCta": "Voir la page Pilot"
     }
   },
@@ -910,7 +910,7 @@
     },
     "hero": {
       "eyebrow": "SERVICE BANQUES",
-      "title": "Ouvrir le crédit agricole sans construire toute l’infrastructure terrain.",
+      "title": "Explorer et structurer le crédit agricole sans construire toute l’infrastructure terrain.",
       "subtitle": "Wakama aide les banques à explorer, qualifier et suivre des portefeuilles agricoles avec des données terrain vérifiées, des scores explicables, des dossiers comité et une traçabilité opérationnelle.",
       "promise": "Votre banque garde la politique crédit et la décision. Wakama construit la donnée exploitable.",
       "primaryCta": "Demander un diagnostic portefeuille",
@@ -959,8 +959,8 @@
           "body": "KYC, documents, parcelles, gouvernance locale et données disponibles."
         },
         {
-          "title": "Scorer",
-          "body": "Score Wakama, facteurs de risque et segmentation portefeuille."
+          "title": "Produire un score agricole explicable et non décisionnel",
+          "body": "Score Wakama, facteurs de risque et segmentation portefeuille pour documenter la revue, sans remplacer la décision de la banque."
         },
         {
           "title": "Documenter",
@@ -1177,7 +1177,7 @@
     "governance": {
       "eyebrow": "GOUVERNANCE",
       "title": "Wakama fournit la donnée. L’assureur porte le produit.",
-      "description": "Wakama ne souscrit pas, ne tarifie pas seul et ne porte pas le risque assurantiel. Les conditions, polices, primes, indemnisations et responsabilités restent chez l’assureur ou le programme porteur.",
+      "description": "Wakama ne souscrit pas, ne tarifie pas, n’indemnise pas et ne porte pas le risque assurantiel. Les conditions, polices, primes, indemnisations et responsabilités restent chez l’assureur ou le programme porteur.",
       "leftTitle": "Wakama apporte",
       "leftItems": [
         "Parcelles géolocalisées",
@@ -1964,7 +1964,7 @@
     },
     "audience": {
       "title": "Une même infrastructure pour plusieurs partenaires de terrain.",
-      "description": "Wakama ne remplace pas les acteurs existants. La plateforme crée une couche commune de données, scoring, suivi et reporting pour mieux coordonner les décisions.",
+      "description": "Wakama ne remplace pas les acteurs existants. La plateforme crée une couche commune de données, scoring, suivi et reporting pour mieux coordonner les rôles, les données et les arbitrages des partenaires.",
       "cards": [
         {
           "title": "Bailleurs & agences",
@@ -2441,7 +2441,7 @@
       },
       "intro": {
         "title": "Une couche d’infrastructure autour de vos équipes.",
-        "body": "Wakama connecte collecte, scoring, reporting et audit trail à vos processus existants sans déplacer la décision finale hors de votre institution."
+        "body": "Wakama connecte collecte, scoring, API, reporting et audit trail à vos processus existants pour soutenir la décision institutionnelle, sans la remplacer ni la déplacer hors de votre institution."
       },
       "cards": [
         {
@@ -2480,11 +2480,11 @@
       },
       "intro": {
         "title": "Un score conçu pour documenter, pas décider.",
-        "body": "Le score Wakama sert de couche d’analyse et de préparation. Il structure les signaux utiles à l’instruction sans se substituer à la gouvernance crédit."
+        "body": "Le score Wakama sert de couche d’analyse et de préparation. Il structure les signaux utiles à l’instruction sans se substituer à la gouvernance crédit. Le score éclaire la revue de l’institution, il ne remplace jamais sa décision."
       },
       "cards": [
         {
-          "title": "Score 0–1000",
+          "title": "Score indicatif 0–1000",
           "body": "Une lecture simple et comparable du portefeuille agricole observé."
         },
         {
@@ -2520,7 +2520,7 @@
       },
       "intro": {
         "title": "Un pilotage lisible pour les équipes institutionnelles.",
-        "body": "Les dashboards regroupent les signaux clés de portefeuille dans une interface de suivi claire, conçue pour le crédit, le risque, la conformité et les opérations."
+        "body": "Les dashboards regroupent les signaux clés de portefeuille dans une interface de suivi post-crédit claire, conçue pour le crédit, le risque, la conformité et les opérations."
       },
       "cards": [
         {
@@ -2529,7 +2529,7 @@
         },
         {
           "title": "Dossiers farmer",
-          "body": "Chaque dossier reste lisible, documenté et prêt pour la relecture interne."
+          "body": "Chaque dossier reste lisible, documenté et prêt pour la relecture interne ou le comité."
         },
         {
           "title": "Alertes terrain",
@@ -2537,7 +2537,7 @@
         },
         {
           "title": "Rapports institutionnels",
-          "body": "Des exports et synthèses adaptés aux comités et aux équipes support."
+          "body": "Des exports, synthèses et dossiers comité adaptés aux comités et aux équipes support."
         }
       ],
       "finalCta": {
