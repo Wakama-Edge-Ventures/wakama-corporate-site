@@ -140,21 +140,21 @@ export function TeamSection() {
         />
 
         <TeamGroup
-          title={expertise.consultantsTitle}
-          people={expertise.consultants}
-          shouldReduceMotion={shouldReduceMotion}
-          tone="consultant"
-          icon={ShieldCheck}
-          className="lg:grid-cols-2"
-        />
-
-        <TeamGroup
           title={expertise.strategicTitle}
           people={expertise.strategicAdvisors}
           shouldReduceMotion={shouldReduceMotion}
           tone="advisor"
           icon={UsersRound}
           className="sm:grid-cols-2 lg:grid-cols-5"
+        />
+
+        <TeamGroup
+          title={expertise.consultantsTitle}
+          people={expertise.consultants}
+          shouldReduceMotion={shouldReduceMotion}
+          tone="consultant"
+          icon={ShieldCheck}
+          className="lg:grid-cols-2"
         />
       </Container>
     </section>

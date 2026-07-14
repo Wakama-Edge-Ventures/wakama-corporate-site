@@ -2244,15 +2244,15 @@
       "founders": [
         {
           "name": "Jebbar Marouane",
-          "role": "CEO & Founder",
+          "role": "CTO",
           "body": "Leads product vision, strategic architecture and the build-out of Wakama as institutional infrastructure for agricultural credit.",
           "initials": "JM",
           "linkedinUrl": "https://www.linkedin.com/in/jebbar-marouane"
         },
         {
           "name": "Syntyche Kouadio",
-          "role": "Chief Partnerships Officer & Co-Founder",
-          "body": "Leads partnerships, field anchoring and relationships with cooperatives, communities and institutional stakeholders.",
+          "role": "CPO",
+          "body": "Leads partnerships, field anchoring and relationships with cooperatives, communities and agricultural stakeholders.",
           "initials": "SK",
           "linkedinUrl": "https://www.linkedin.com/in/syntyche-kouadio-270430153/"
         }
